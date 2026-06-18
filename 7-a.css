@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f203e; 
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    color: #00fff0; 
+}
+
+header p {
+    margin: 0;
+    color: #b0b0c0;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 0; 
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;       
+    width: 15%;                
+    margin: 2%;                 
+    background-color: #162447;  
+    border: 2px solid #ffffff;  
+    border-radius: 10px;        
+    box-sizing: border-box;     
+    font-size: 16px;            
+    text-align: left;
+    overflow: hidden;           
+
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-10px); 
+    border-color: #00fff0;        
+    cursor: pointer;
+}
+
+.char-img {
+    height: 160px;
+    font-size: 64px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fire-type { background-color: #e43f5a; }
+.water-type { background-color: #0676ff; }
+.wind-type { background-color: #f2ff00; }
+.forest-type{background-color:#13ff06;}
+
+.card-content {
+    padding: 20px; 
+}
+
+
+.badge {
+    display: inline-block; 
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.badge.fire { background-color: #ff4d4d; }
+.badge.water { background-color: #00d2fc; color: #000; }
+.badge.wind { background-color: #ccff00; color: #000; }
+.badge.forest{background-color: #13ff06; color:#000;}
+
+.char-name {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.char-desc {
+    margin: 0;
+    font-size: 14px;
+    color: #e2e2e2;
+    line-height: 1.5; 
+}
+
